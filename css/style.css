@@ -1,0 +1,477 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900');*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');*/
+/*font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+
+body{
+	overflow-x: hidden;
+ 	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+
+.navbar{
+	/*text-transform: uppercase;       **this is for uppercase navbar */ 
+	font-weight:600;
+	font-size:1.5rem;
+	background:rgba(80,80,80,0.5) !important;
+}
+.navbar-nav li{
+	padding-right:0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding-top: 0.8rem;
+} 
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:rgb(186,186,186);
+} 
+
+.home-inner{
+	background-image: url(img/unsplash2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;	
+	background-size: cover;
+}
+.caption{
+	width:100%;
+	max-width:100%;
+	position: absolute;
+	top: 38%;
+	z-index:1;
+	color: white;
+}
+
+
+.caption h1{
+	font-size:5rem;
+	font-weight: 700;
+	text-shadow: 0.1rem 0.1rem 0.8rem black; 
+	padding-bottom:0.5rem;
+}
+
+.caption h3{
+	font-size:2rem;
+	font-weight: 500;
+	text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+.scratch{
+	font-size:0.8rem;
+	position: absolute;
+	z-index: 5;
+  	text-align: center;
+  	bottom: 0%;
+ 	right: 0%;
+ 	background:rgba(230,230,230,0.2);
+	padding: 8px;
+	top: 96%;
+	color: white !important;
+}
+.aboutme{
+	/*padding: 8px;
+	max-width: 2500px;
+	width:100%;
+	margin: 20px auto;
+	*/
+	margin: 50px auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	color:black;
+	
+}
+
+.aboutme h1{
+	font-size: 2.6rem;
+	font-weight: 600;
+}
+
+
+.aboutme p{
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.aboutme hr{
+	width:190px;
+	text-align: left;
+	margin-left: 0; 
+}
+
+
+
+
+.allprojects{
+	margin: 40px auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	color:black;
+
+}
+
+.allprojects h1{
+	font-size: 2.6rem;
+	font-weight: 600;
+}
+
+.allprojects p{
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.allprojects hr{
+	width:155px;
+	text-align: left;
+	margin-left: 0; 
+}
+
+
+.resumeinfo{
+	margin: 40px auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	color:black;
+}
+
+.resumeinfo h1{
+	font-size: 2.6rem;
+	font-weight: 600;
+}
+
+.resumeinfo p{
+	
+}
+
+.resumeinfo hr{
+	width:150px;
+	text-align: left;
+	margin-left: 0; 
+}
+
+
+
+#resume .resumeinfo .skillsbullet{
+	font-weight: 500;
+	font-size: 1.1rem;
+	
+  	
+}
+
+
+
+
+
+
+
+
+/*.contactinfo{
+	margin: 40px auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	color:black;
+}*/
+
+
+/*.contactinfo h1{
+	font-size: 2.6rem;
+	font-weight: 600;
+}*/
+
+
+
+#contact footer{
+	background-image: url(img/unsplash2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;	
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+#contact footer .row .col-lg-6{
+	margin-top: 5%;	
+	margin-bottom: 5%;	
+}
+
+#contact footer .row .col-lg-6 h1{
+	font-size:3rem;
+	font-weight: 600;
+}
+
+#contact footer .row .col-lg-6 a:nth-child(1){
+	padding-right:2%;
+}
+
+#contact footer .row .col-lg-6 a:nth-child(2){
+	padding-right:2%;
+}
+
+#contact footer .row .col-lg-6 a:nth-child(3){
+	padding-right:2%;
+}
+
+
+
+#resume .resumeinfo .skillbar .container{
+	/*background-color:white;*/
+	/*color:black;*/
+	font-family:Lato;
+	width:80%;
+	margin: 50px auto 0;
+	padding:20px;
+}
+
+
+
+#resume .resumeinfo .skillbar .container li{
+	position: relative;
+	list-style:none;
+	margin:35px 0;
+	font-weight:500;
+	text-transform:uppercase;
+}
+
+#resume .resumeinfo .skillbar .container .skills{
+	margin-top: -4%;
+}
+
+#resume .resumeinfo .skillbar .container .skills ul{
+	font-size: 0.85rem;
+	font-weight: 600;
+}
+
+ 
+#resume .resumeinfo .skillbar .container li:before{
+	content:"";
+	position:absolute;
+	top: calc(100% + 5px);
+	left:0;
+	width:100%;
+	height:18px;
+	background-color: rgba(175, 175, 175, 0.5);
+	border-radius:1000px;
+}
+
+
+#resume .resumeinfo .skillbar .container li:after{
+	content:"";
+	position:absolute;
+	top: calc(100% + 5px);
+	left:0;
+	width:0;
+	height:18px; /* Changes thickness of bars */
+	/*background-color: rgba(54, 126, 223, 1);*/
+	border-radius:1000px;
+	animation-duration:.9s;
+	animation-timing-function:ease;
+	animation-fill-mode:forwards;	
+}
+
+
+
+
+#resume .resumeinfo .skillbar .container li.java:after{
+	animation-name:java;
+	background-color: red;
+}
+
+@keyframes java{
+	to{
+	width:83%;
+	}
+}
+
+
+
+
+
+#resume .resumeinfo .skillbar .container li.html:after{
+	animation-name:html;
+	background-color: orange;
+}
+
+
+@keyframes html {
+	to{
+	width:80%;
+	}
+}
+
+
+
+
+
+#resume .resumeinfo .skillbar .container li.css:after{
+	animation-name:css;
+	background-color: rgb(255, 240, 0);
+}
+
+
+@keyframes css {
+	to{
+	width:80%;
+	}
+}
+
+
+
+#resume .resumeinfo .skillbar .container li.py:after{
+	animation-name:py;
+	background-color: green;
+}
+
+@keyframes py {
+	to{
+	width:75%;
+	}
+}
+
+
+#resume .resumeinfo .skillbar .container li.android:after{
+	animation-name:android;
+	background-color: blue;
+}
+
+@keyframes android {
+	to{
+	width:75%;
+	}
+}
+
+
+#resume .resumeinfo .skillbar .container li.js:after{
+	animation-name:js;
+	background-color: indigo;
+}
+
+@keyframes js {
+	to{
+	width:65%;
+	}
+}
+
+#resume .resumeinfo .skillbar .container li.boot:after{
+	animation-name:boot;
+	background-color: purple;
+}
+
+@keyframes boot {
+	to{
+	width:62%;
+	}
+}
+
+
+#resume .resumeinfo .skillbar .container p{
+	text-align: center;
+	font-size:2rem;
+	font-weight: 700;
+	padding-bottom: -5%;
+}
+
+
+/*
+
+
+
+.contact footer .lastsection{
+	/*margin-left:60%;
+	margin-right:20%;
+	text-align: center;*/
+	/*padding-top: 1%;*/
+/*	border: 5px solid red;
+	width:50%;
+}
+*/
+/*
+.contact footer h6{
+	font-size: 1rem;
+	font-weight: 400;
+	margin-left:60%;
+	margin-right:20%;
+	text-align: center;
+}
+
+.contact footer p{
+	font-size: 0.9rem;
+	font-weight: 100;
+	margin-left:60%;
+	margin-right:20%;
+	text-align: center;
+}
+
+
+
+.contact footer .lastsection .icons a{
+	font-size: 50px;
+	padding:5px;
+	color: white;
+}
+
+
+
+.contact footer .lastsection .icons{
+	margin-left:60%;
+	margin-right:20%;
+	text-align: center;
+	margin-top: -1%;
+}
+
+
+#contact footer .lastsection h3{
+	margin-left:40%;
+	margin-right:10%;
+	padding-bottom: 50px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
