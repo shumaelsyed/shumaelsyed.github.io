@@ -269,7 +269,7 @@ body{
 	height:18px; /* Changes thickness of bars */
 	/*background-color: rgba(54, 126, 223, 1);*/
 	border-radius:1000px;
-	animation-duration:.9s;
+	animation-duration:10s;
 	animation-timing-function:ease;
 	animation-fill-mode:forwards;	
 }
