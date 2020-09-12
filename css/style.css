@@ -485,9 +485,8 @@ html {
 
 
 
-
+/* 
 @media (max-width: 576px) {
-  /* CSS that should be displayed if width is equal to or less than 800px goes here */
   .caption{
 	width:100%;
 	max-width:100%;
@@ -497,8 +496,8 @@ html {
 	color: white;
 	padding-left: 5%;
 	padding-right: 5%;
-}
-}
+	}
+} */
 
 
 
