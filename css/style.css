@@ -166,17 +166,17 @@ html {
 
 .box{
   position: absolute;
-  top: 92.5%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
 .box span{
   display: block;
-  width: 30px;
-  height: 30px;
-  border-bottom: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
   transform: rotate(45deg);
   margin: -17px;
   animation: animate 2s infinite;
@@ -485,7 +485,8 @@ html {
 
 
 
-/* 
+
+
 @media (max-width: 576px) {
   .caption{
 	width:100%;
@@ -497,9 +498,36 @@ html {
 	padding-left: 5%;
 	padding-right: 5%;
 	}
-} */
+  .caption h1{
+	font-size:3rem;
+	font-weight: 700;
+	text-shadow: 0.1rem 0.1rem 0.8rem black; 
+	padding-bottom:0.5rem;
+	}
+	.caption h3{
+	font-size:1.3rem;
+	font-weight: 500;
+	text-shadow: 0.1rem 0.1rem 0.8rem black;
+	}
+	.box{
+	  position: absolute;
+	  top: 88%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
 
+	.box span{
+	  display: block;
+	  width: 30px;
+	  height: 30px;
+	  border-bottom: 3px solid #ffffff;
+	  border-right: 3px solid #ffffff;
+	  transform: rotate(45deg);
+	  margin: -17px;
+	  animation: animate 2s infinite;
+	}
 
+} 
 
 
 
