@@ -127,10 +127,16 @@ html {
 }
 
 .allprojects hr{
-	width:155px;
+	width:210px;
 	text-align: left;
 	margin-left: 0; 
 }
+
+/*.allprojects {
+	margin-bottom: 10%; 
+}
+*/
+
 
 
 .resumeinfo{
